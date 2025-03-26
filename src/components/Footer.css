@@ -1,0 +1,40 @@
+.foot{
+    background-color:bisque;
+}
+
+.footer {
+    background-color:#2fc212; /* Light background */
+    padding: 20px 0; /* Top and bottom padding */
+    position: relative; /* Positioning */
+    bottom: 0; /* Align at bottom */
+    width: 100%; /* Full width */
+}
+
+.footer .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center align */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+    color: #030405; /* Black text color */
+}
+
+.footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    display: inline; /* Inline list items */
+    margin: 0 15px; /* Space between links */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline */
+    color: #2412c2; /* Bootstrap primary color */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

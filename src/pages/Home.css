@@ -1,0 +1,203 @@
+.brain {
+margin-top: 20px;
+}
+
+.brain h1 {
+font-size: 36px;
+font-weight: bold;
+color: #d028fa;
+text-align: center;
+}
+
+.slider {
+width: 100%;
+height: 500px;
+overflow: hidden;
+margin-top: 20px;
+}
+
+.slider figure {
+position: relative;
+left: 0;
+width: 200%;
+animation: slide 10s infinite;
+}
+
+.slider .slide {
+position: relative;
+width: 50%;
+float: left;
+}
+
+.slider .slide h1 {
+position: absolute;
+font-size: 36px;
+width: 100%;
+text-align: center;
+margin-top: 50px;
+color: #fff;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slider .slide img {
+width: 100%;
+height: 500px;
+}
+
+@keyframes slide {
+0% {
+left: 0;
+}
+20% {
+left: 0;
+}
+40% {
+left: -100%;
+}
+60% {
+left: -100%;
+}
+80% {
+left: -100%;
+}
+100% {
+left: -100%;
+}
+}
+
+.ss {
+padding-bottom: 50px;
+}
+
+.ss h1 {
+padding-top: 100px;
+color: rgb(226, 25, 25);
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+}
+
+.courses {
+  color: rgb(39, 18, 226);
+margin-top: 30px;
+text-align: center;
+}
+
+.demo {
+  color: rgb(39, 18, 226);
+margin-top: 30px;
+text-align: center;
+}
+.all {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+
+.off {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+
+.card {
+margin: 20px;
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.card-title {
+font-size: 24px;
+font-weight: bold;
+}
+
+.card-text {
+font-size: 18px;
+color: #666;
+}
+
+.card-subtitle {
+font-size: 18px;
+color: #999;
+}
+
+.toast {
+width: 100%;
+margin: 20px;
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.toast-header {
+font-size: 24px;
+font-weight: bold;
+}
+
+.toast-body {
+font-size: 18px;
+color: #666;
+}
+
+
+.demo {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+.demo h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #c42121;
+}
+
+.demo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.demo img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.demo img:hover {
+  transform: scale(1.1);
+}
+
+.our {
+  color: rgb(39, 18, 226);
+  margin-top: 30px;
+  text-align: center;
+}
+/* Responsive design */
+
+@media (max-width: 768px) {
+.slider {
+height: 300px;
+}
+.all {
+margin-top: 10px;
+}
+}
+
+@media (max-width: 576px) {
+.slider {
+height: 200px;
+}
+.all {
+margin-top: 5px;
+}
+}

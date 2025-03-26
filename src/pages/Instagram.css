@@ -1,0 +1,93 @@
+/* Instagram.css */
+
+/* General container styling */
+.Contact {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Contact h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .Contact img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  /* Styling for progress bars */
+  .my-3 {
+    width: 90%;
+    height:40px;
+    margin: 100px auto;
+  }
+  
+  .progress-bar {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  /* Detail section styling */
+  .detail {
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+  
+  .detail p {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .detail img {
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Email link styling */
+  .detail a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .detail a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .Contact img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .my-3 {
+      width: 100%;
+    }
+  
+    .detail {
+      width: 100%;
+    }
+  
+    .detail p {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .detail img {
+      margin-bottom: 10px;
+    }
+  }
+  

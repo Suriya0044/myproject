@@ -1,0 +1,52 @@
+.myfile {
+  margin: 40px;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.myfile h1 {
+  color: #064975;
+  margin-bottom: 20px;
+}
+
+.myfile img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.myfile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myfile li {
+  margin-bottom: 10px;
+}
+
+.myfile li::before {
+  content: "\2022";
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #00698f;
+  margin-right: 5px;
+}
+
+.myfile h2 {
+  margin-top: 20px;
+  color: #600fbd;
+}
+
+.myfile h3 {
+  margin-top: 10px;
+  color: #1f22dd;
+}
+
+.Button {
+  margin: 20px auto;
+  display: block;
+}
