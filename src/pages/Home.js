@@ -202,7 +202,7 @@ const Home= () => {
   <Card>
     <CardImg
       alt="Card image cap"
-      src="Cyber.jpg"
+      src="cyber.jpg"
       top
       width="100%"
     />
