@@ -27,7 +27,7 @@ const Home= () => {
     </CardHeader>
     <cardbody>
       <div className='ss'>
-    <center><h1>Tell About AS</h1></center></div>
+    <center><h1>About AS</h1></center></div>
 
     <div className="p-3 bg-success my-4 rounded">
     <Toast>
